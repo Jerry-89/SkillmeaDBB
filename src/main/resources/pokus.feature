@@ -15,6 +15,6 @@ Feature: pokus
       Then  dalsie overenie vysledku
 
   Scenario: Kalkulacka - sucet 2 cisel
-    Given uzivatel ma zadane dve cisla 5 a 8
+    Given uzivatel ma zadane dve cisla 2 a 10
     When  Uzivatel scita tieto dve cisla
-    Then Uzivatel vidi na kalkulacke vysledok 13
+    Then Uzivatel vidi na kalkulacke vysledok 12
