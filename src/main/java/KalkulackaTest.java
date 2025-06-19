@@ -26,4 +26,9 @@ public class KalkulackaTest {
         assertEquals(vypocitanyVysledok, predpokladanyVysledok);
         //assert bude porovnavat dve hodnoty, ci sa rovnaju
     }
+
+    @When("Uzivatel vydeli tieto dve cisla")
+    public void uzivatelVydeliTietoDveCisla() {
+        vypocitanyVysledok = prvCislo / druCislo;
+    }
 }
